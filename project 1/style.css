@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(48, 99, 82);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.left_side{
+
+}
+
+.title{
+ color: white;
+}
+
+.right_side_list{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+    list-style: none;
+}
+
