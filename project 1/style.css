@@ -26,3 +26,18 @@ nav{
     list-style: none;
 }
 
+
+#portfolio_page{
+    border: 2px solid black;
+    height: 400px;
+}
+
+#about_page{
+   border: 2px solid black;
+    height: 400px; 
+}
+
+#contact_page{
+    border: 2px solid black;
+    height: 400px;
+}
