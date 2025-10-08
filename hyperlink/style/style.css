@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    
+}
+
+.text_container{
+    padding-left: 30px;
+}
+
+.text_container p{
+    font-size: 30px;
+    
+
+}
+
+.text_container a{
+    color: brown;
+}
+
+.car_title{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.car_list{
+    font-size: 30px;
+}
