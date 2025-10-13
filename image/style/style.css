@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_container{
+    width: 40%;
+}
+
+.image_container img{
+    width: 100%;
+    border: 4px double orange;
+    box-shadow: 8px 8px 20px gray;
+    border-radius: 50%
+}
+
+
+.image_container_two{
+    width: 20%;
+}
+
+.image_container_two img{
+    width: 100%;
+    border: 4px dotted blue;
+    box-shadow: 4px 6px 10px black;
+    /* border-radius: 50%; */
+}
+
+
+.image_container_two img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.background_container{
+ background-image: url("/assets/istockphoto-1269109174-612x612.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
