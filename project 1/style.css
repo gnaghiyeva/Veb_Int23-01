@@ -41,3 +41,54 @@ nav{
     border: 2px solid black;
     height: 400px;
 }
+
+#portfolio_page{
+    padding-top: 30px;
+}
+
+.text_container{
+    text-align: center;
+}
+
+.text_container p{
+    color: gray;
+    font-style: italic;
+}
+
+.cards_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card_container{
+    /* border: 2px solid red; */
+}
+
+.icon_container{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.icon_container span{
+    background-color: orange;
+    font-size: 30px;
+    padding: 6px 5px;
+    border-radius: 50%;
+}
+
+.icon_container span i{
+    
+}
+
+.title{
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.description{
+    text-align: center;
+    color: gray;
+}
