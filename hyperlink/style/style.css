@@ -25,3 +25,7 @@
 .car_list{
     font-size: 30px;
 }
+
+table,tr,th,td {
+    border-collapse: collapse;
+}
