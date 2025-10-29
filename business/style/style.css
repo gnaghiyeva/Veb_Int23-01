@@ -35,7 +35,7 @@ color: white;
 .text_container{
     padding-top: 50px;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: white;
 }
 
@@ -68,6 +68,13 @@ color: white;
     color: white;
     border-radius: 10px;
     border: none;
+    font-size: 20px;
+}
+
+.left_button_container button:hover{
+    background-color: rgb(39, 39, 88);
+    cursor: pointer;
+    transition: 0.3 ease;
 }
 
 .right_button_container button{
@@ -75,4 +82,29 @@ color: white;
     background-color: transparent;
     color: white;
     border-radius: 10px;
+    font-size: 20px;
 }
+
+.right_button_container button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px ;
+    padding-top: 70px;
+}
+.card_container{
+    border: 2px solid black;
+    
+}
+.card_container i{
+    color: black;
+    font-size: 40px;
+
+}
+
