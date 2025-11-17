@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+    /* padding-top: 240px; */
+    margin-top: 240px;
+    background-color: rgb(77, 132, 77);
+    margin-left: 200px;
+    margin-right: 200px;
+  
+}
+
+.form_container{
+}
+
+.text_container{
+    text-align: center;
+}
+
+.text_container p{
+    color: gray;
+}
+
+.left_container{
+    /* border: 2px solid red; */
+}
+ 
+
+.left_image{
+/* border: 2px solid red; */
+height: 40vh;
+}
+
+.left_image img{
+    height: 100%;
+}
+
+.right_container{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.form_container{}
+
+.name_container input{
+    /* border: 2px solid red; */
+    /* padding: 20px 40px; */
+    height: 40px;
+    width: 100%;
+}
+
+.email_container input{
+    /* border: 2px solid blue; */
+    height: 40px;
+    width: 100%;
+}
+
+.text_area_container textarea{
+    /* border: 2px solid rgb(247, 0, 255); */
+    height: 40px;
+    width: 100%;
+} 
+
+.button_container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.button_container button{
+    padding: 10px 60px;
+    background-color: rgb(60, 157, 202);
+    color: white;
+}
+
+.email_container, .name_container, .text_area_container{
+    padding-top:10px ;
+}

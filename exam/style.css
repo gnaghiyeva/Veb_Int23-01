@@ -1,0 +1,19 @@
+h1{
+    color: white;
+text-align:center;
+
+}
+p{
+    color: white;
+    text-align: center;
+}
+.conteyners{
+    border: 1px solid black;
+    padding-top: 30px;
+    padding: 10px 150px;
+    
+}
+.imgcon img{
+    width: 250px;
+    height: 250px;
+}
