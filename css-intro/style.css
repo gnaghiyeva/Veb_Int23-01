@@ -1,0 +1,50 @@
+ /* external */
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            /* height: 100vh; */
+            background-image: url("assets/bg-masthead.jpg");
+            padding: 350px 0;
+        }
+        .texts{
+            text-align: center;
+        }
+
+        .texts p{
+            font-size: 5em;
+            font-weight: 900;
+        }
+
+        .texts span{
+                font-size: 30px;
+                font-style: italic;
+                font-weight: 600;
+        }
+        .button_container{
+            text-align: center;
+            margin-top: 70px;
+            
+
+        }
+        .button_container span{
+            border: 1px solid #1d809f;
+            background: #1d809f;
+            color: white;
+            padding: 25px 35px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: 0.5s ease;
+        }
+        .button_container span:hover{
+            border: 1px solid #104a5c;
+            background: #104a5c;
+            color: white;
+            padding: 25px 35px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+
+        }
