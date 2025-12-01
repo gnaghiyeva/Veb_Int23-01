@@ -1,8 +1,16 @@
-.conteyner{
-    border: 1px solid rgba(0, 0, 0, 0.813);
-    
-} 
-
-h3 {
-  background color    
+/* .cart{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 50px;
 }
+.cart01{
+   border: 1px solid black;
+}
+.cart02{
+   border: 1px solid black;
+}
+.cart03{
+   border: 1px solid black;
+} */
+
